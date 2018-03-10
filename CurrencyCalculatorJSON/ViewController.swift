@@ -30,6 +30,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         conversionTableView.showsVerticalScrollIndicator = false
         rateField.textAlignment = .center
         
+        
         fetchData()
         
     }
